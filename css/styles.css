@@ -4,12 +4,19 @@
 /* Components */
 @import "component/status-bar.css";
 @import "component/nav-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/badge.css";
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+    color: #2e363e;
 }
 
 
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
